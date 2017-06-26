@@ -1,5 +1,5 @@
-# This is a script to update a custom field for existing Zendesk organizations using a csv file containing their ids and the field ValueError
-# In my case it was a custom field to import the salesforce ID
+# This is a script to update a custom field for existing Zendesk organizations using a csv file containing their ids and the field Value
+# In my case it was a custom field to import the salesforce ID of organizations and pull it into Zendesk for data recording purposes.
 
 import requests
 import csv
