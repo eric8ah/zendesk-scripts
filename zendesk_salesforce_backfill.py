@@ -31,7 +31,7 @@ salesforce_id_index = csv_headers.index('salesforceID')
 for row in csv_file:
 	id = row[id_index]
 	salesforce_id = row[salesforce_id_index]
-	urlFull = urlFull = url1 + id + url2
+	urlFull = url1 + id + url2
 
 	data = {
 		"organization": {
